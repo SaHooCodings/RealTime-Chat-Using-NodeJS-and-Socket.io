@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;700&family=La+Belle+Aurore&family=Poppins&family=Roboto:ital@1&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;700&family=La+Belle+Aurore&family=Poppins&family=Roboto+Mono:ital,wght@1,300&family=Source+Code+Pro:wght@300&display=swap');
+
+body{
+    background-image: linear-gradient(aquamarine, cyan);
+    max-height: 100vh;
+}
+.logo{
+    display: block;
+    text-align: center;
+    border-radius: 8px;
+    background-image: linear-gradient(rgb(255, 255, 255), pink);
+    max-width: 962px;
+    margin-left: 280px;
+    margin-top: 20px;
+}
+i{
+    color: violet;
+    font-size: 30px;
+}
+.container{
+    border: 3px solid blueviolet;
+    max-width: 955px;
+    margin: auto;
+    height: 80vh;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    overflow-y: scroll;
+}
+
+.msg{
+    background-color: chartreuse;
+    padding: 5px;
+    margin: 20px 30px;
+    width: 50%;
+    border: 2px solid red;
+    border-radius: 17px;
+}
+
+.left{
+    float: left;
+    clear: both;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.right{
+    float: right;
+    clear: both;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#send-con{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+#msgInput{
+    margin-top: 20px;
+    width: 900px;
+    border: 3px solid black;
+    border-radius: 8px;
+    height: 25px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(rgb(255, 255, 255), pink);
+}
+
+.btn{
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 8px;
+    height: 30px;
+    background-image: linear-gradient(rgb(255, 255, 255), pink);
+}
